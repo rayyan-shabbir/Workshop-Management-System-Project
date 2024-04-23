@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    height: 100%;
+    background-size: cover;
+    background-position: fill;
+    font-family: sans-serif;
+}
+.logo img{
+    position: center;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 10px;
+    width: 140px;
+    height: 100px;
+}
+.content{
+    word-wrap: normal;
+    word-spacing: 1.2;
+}
+.content h1{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content p{
+    margin-left: 30px;
+    margin-right: 40px;
+    color: white;
+}
+.content h2{
+    color: goldenrod;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.content ul{
+    list-style: circle;
+    margin-left: 50px;
+    margin-right: 40px;
+    color: white;
+}
+.end{
+    margin-top: 20px;
+    margin-left: 500px;
+	color: red;
+	font-size: 14px; 
+    font-weight: bold; 
+}

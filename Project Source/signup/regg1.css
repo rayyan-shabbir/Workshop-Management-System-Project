@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/spare.jpg);
+    background-size: cover;
+    background-position: fill;
+    font-family: sans-serif;
+
+}
+
+#btn{
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+
+#btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+ }
+ 
+ #btn a {
+     text-decoration: none;
+     color: white;
+ }
+
+header{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+.image img{
+    position: center;
+    justify-content: center;
+    margin-left: 43%;
+    margin-top: 0px;
+}
+
+.content{
+   margin-top: 20px;
+}
+
+.content h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: -40px;
+}
+.content .par{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.content h1 span{
+    color: red;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+.content .par span{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content h2{
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.loginbox{ 
+    margin-top: 560px;
+    width: 520px;
+    height: 700px;
+    background: white;
+    color: black;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 50px;
+}  
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+span{
+    color: black;
+    font-size: 14px;
+}
+
+/* .loginbox input{
+    
+    margin-bottom= 100px; 
+} */
+
+.loginbox input[type="text"], input[type="password"], input[type="tel"], input[type="email"] 
+{
+    border: none;
+    width: 420px;
+    border-bottom: 2px solid grey;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    
+}
+
+.loginbox button{
+    background: transparent; 
+    border: white;
+    width: 420px;
+}
+.loginbox button {
+    text-decoration: none;
+    color: white;
+    background: black;
+    font-size: 20px;
+    width: 420px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    box-align: center;
+    border: none;
+    outline: none;
+}
+.loginbox button:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+.loginbox a{
+
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+.loginbox a:hover
+{
+    color: red;
+}
+
+.social{
+    display: flex;
+}
+.social a{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  red;
+	border-radius: 50%;
+	margin: -10px 10px;
+    position: relative;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+    opacity: 1.5;
+	transition: .3s;
+    color: white;
+    background: black;
+} 
+
+footer{
+
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    color: transparent;
+}
+
+footer p{
+    color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 60%;
+}
