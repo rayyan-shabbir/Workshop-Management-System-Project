@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\html"
+		},
+		{
+			"path": "..\\javascript_form_events"
+		},
+		{
+			"path": "..\\projects"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\web_project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html"
+	}
+}
