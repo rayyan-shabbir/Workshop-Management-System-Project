@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\project_related"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "userpage"
+	}
+}
