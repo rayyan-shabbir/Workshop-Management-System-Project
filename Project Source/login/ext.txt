@@ -1,0 +1,63 @@
+.d-flex{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/* .form-control me-2{
+    padding: 10px 10px;
+} */
+
+button[type=submit]{
+    background-color: #cc0000;
+    /* color: white;
+    border: 1px solid #cc0000;*/
+
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 1px solid #cc0000;
+    border-radius: 200px;
+    margin-top: 10px;
+
+} 
+
+button[type=submit]:hover,
+button[type=submit]:active{
+    background-color: #750303;
+}
+
+
+input[type=search],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #cc0000;
+    color: #cc0000;
+    font-size: 90%;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {outline: none;}
+
+
+
+
+<nav class="navbar navbar-expand-lg bg-dark">
+        <form class="d-flex" role="search">
+          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <input type="search" name="search" id="name" placeholder="Search" required>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
